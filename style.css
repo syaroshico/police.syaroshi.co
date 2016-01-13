@@ -1,174 +1,119 @@
-@charset "utf-8";
-body {
-	background: url(syaro.jpg) no-repeat center left fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-color: #FEF898;
-	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","游ゴシック","YuGothic","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic";
-	background-repeat: no-repeat;
-	color: #333333;
-	text-shadow: 0px 0px 1px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	background-size: auto 100%;
-	min-width: 1400px;
-}
-a.top {
-	display: block;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
-	background-color: #DAA1C1;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
-	margin-bottom: 10px;
-	width: 150px;
-	text-decoration: none;
-}
-a:link {
-	color: #333333;
-	text-align: center;
-	text-decoration: none;
-}
-a:visited {
-	color: #333333;
-	text-align: center;
+@charset "UTF-8";
+<style>
+a {
 	text-decoration: none;
 }
 a:hover {
-	background-color: #A04B8C;
-	color: #FFFFFF;
 	text-decoration: none;
+}
+.header{
+	border-top:0px solid #000;
+	background:#FEF898;
+}
+.logo{
+	color: #DAA1C1;
+	font-size: xx-large;
 	text-align: center;
-}
-a.select {
-	display: block;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
-	background-color: #A3518F;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
-	margin-bottom: 10px;
-	width: 150px;
-	text-decoration: none;
-	color: #FFFFFF;
-}
-ul.top {
-	position: relative;
-	left: 50%;
-	list-style-type: none;
-	margin-top: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
-	margin-right: 0px;
-	float: left;
-}
-li.top {
-	float: left;
-	width: 200px;
-	text-align: center;
-	text-decoration: none;
-	position: relative;
-	left: -50%;
-	list-style-type: none;
-}
-
-.menu {
-	float: left;
-	background-color: #DAA1C1;
-	list-style-type: none;
-	text-align: center;
-	text-decoration: none;
-	height: 46px;
-	width: 100%;
-	min-width: 1080px;
-	position: fixed;
-}
-.title {
-	font-size: x-large;
-	margin-left: 0px;
-	padding-top: 50px;
-	text-shadow: 5px 5px 5px #DAA1C1;
-	padding-left: 800px;
+	text-shadow: 5px 5px 5px #FFF;
 	font-weight: bold;
 }
-.index {
-	margin-left: 0px;
-	padding-left: 850px;
+.headerNav{
+	background:#DAA1C1;
 }
-.introduction {
-	text-shadow: 0px 0px;
+.headerNavBtn{
+	text-align:center;
+	height:3em;
+	line-height:3em;
+	color:#5F5F5F;
+	font-size:16px;
+	background:#DAA1C1;
+}
+.headerNavBtn:hover{
+	background:#A04B8C;
+	color:#FFF;
+}
+.headerNavBtnOn{
+	text-align:center;
+	height:3em;
+	line-height:3em;
+	color:#FFF;
+	font-size:16px;
+	background:#A04B8C;
+}
+.Main{
+	text-align: center;
+	background-color: #FEF898;
+	background-image: url(img/syaro.jpg);
+	background-position: bottom left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.Greeting{
+	text-align: center;
+	background: #FEF898 url(img/greeting.jpg) center center fixed;
+}
+.Introduction{
+	text-align: center;
+	background: #FEF898 url(img/introduction.jpg) center right fixed;
+}
+.Life{
+	text-align: center;
+	background: #FEF898 url(img/life.jpg) center left fixed;
+}
+.Contact{
+	text-align: center;
+	background: #FEF898;
+}
+.Recruit{
+	text-align: center;
+	background: #FEF898 url(img/recruit.jpg) center center fixed;
+}
+.back{
 	background-color: rgba(255,255,255,0.8);
-	margin: 0 auto;
-	text-align: center;
-	width: 50%;
 }
-table {
-	padding-left: 30px;
-	padding-top: 30px;
-	padding-right: 30px;
-	padding-bottom: 30px;
-	border-spacing: 10px 10px;
+.How{
+	background:#DAA1C1;
 }
-table.life {
-	padding-left: 30px;
-	padding-top: 30px;
-	padding-right: 30px;
-	padding-bottom: 30px;
-	border-spacing: 10px 10px;
-	text-align: justify;
-	text-decoration: none;
-	text-indent: 20px;
-}
-.img{
-	display: block;
-	margin-left: auto;
- 	margin-right: auto;
-}
-h1 {
-	text-align: center;
-	text-decoration: none;
-	text-indent: 10px;
-	font-size: x-large;
-}
-h2 {
-	text-align: justify;
-	text-decoration: none;
-	font-size: medium;
-	text-indent: 20px;
-	font-weight: normal;
-}
-h3 {
-	text-align: justify;
-	text-decoration: none;
-	font-size: small;
-	text-indent: 20px;
-	font-weight: normal;
-}
-h4 {
+ul.howtitle {
 	position: relative;
 	margin: 0 0 1.5em;
 	padding: 0.8em;
-	background: #DAA1C1;
-	color: #fff;
+	background: #FEF898;
+	color: #5F5F5F;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	font-size: x-large;
 	font-weight: normal;
 }
-h4:after{
+ul.howtitle:after{
+    position: absolute;
+    bottom: -15px;
+    left: 10%;
+    z-index: 90;
+    margin-left: -15px;
+    border-top: 15px solid #FEF898;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 0;
+    content: "";
+}
+ul.title {
+	text-align: left;
+	position: relative;
+	margin: 0 0 1.5em;
+	padding: 0.8em;
+	background: #DAA1C1;
+	color: #FFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	font-size: x-large;
+	font-weight: normal;
+}
+ul.title:after{
+	text-align: left;
     position: absolute;
     bottom: -15px;
     left: 10%;
@@ -180,13 +125,51 @@ h4:after{
     border-bottom: 0;
     content: "";
 }
-h5 {
+ul.contents {
 	text-align: left;
-	text-decoration: none;
 	font-size: large;
-	text-indent: 20px;
+}
+p.contentstitle {
+	text-align: left;
+	font-size: large;
 	font-weight: bold;
 }
-.footer {
-	padding-left: 550px;
+p.contents {
+	text-align: left;
+	font-size: large;
 }
+p.contents-small {
+	text-align: left;
+	font-size: small;
+}
+p.twi{
+	opacity: 0.8;
+	}
+p.button{
+	text-align: center;
+	}
+li.contents {
+	text-align: left;
+	font-size: large;
+}
+.img-responsive-overwrite{
+    margin: 0 auto;
+}
+.footer{
+	background:#DAA1C1;
+ 	height: 60px;
+}
+.copyright{
+	text-align: center;
+	margin: 0.5em auto;
+	display: block;
+	background: #DAA1C1;
+}
+.counter{
+	text-align: center;
+	margin: 0.5em auto;
+	display: block;
+	background: #DAA1C1;
+}
+</style>
+/* CSS Document */
