@@ -1,5 +1,4 @@
 @charset "UTF-8";
-<style>
 a {
 	text-decoration: none;
 }
@@ -214,5 +213,6 @@ li.contents {
 	display: block;
 	background: #DAA1C1;
 }
-</style>
-/* CSS Document */
+.img-maru {
+border-radius : 100%;
+}
