@@ -17,6 +17,9 @@ a:hover {
 	text-shadow: 5px 5px 5px #FFF;
 	font-weight: bold;
 }
+.tl{
+	height:80%;
+}
 .headerNav{
 	background:#DAA1C1;
 }
@@ -32,10 +35,30 @@ a:hover {
 	background:#A04B8C;
 	color:#FFF;
 }
+.headerNavBtnXs{
+	text-align:center;
+	height:2em;
+	line-height:2em;
+	color:#5F5F5F;
+	font-size:16px;
+	background:#DAA1C1;
+}
+.headerNavBtnXs:hover{
+	background:#A04B8C;
+	color:#FFF;
+}
 .headerNavBtnOn{
 	text-align:center;
 	height:3em;
 	line-height:3em;
+	color:#FFF;
+	font-size:16px;
+	background:#A04B8C;
+}
+.headerNavBtnOnXs{
+	text-align:center;
+	height:2em;
+	line-height:2em;
 	color:#FFF;
 	font-size:16px;
 	background:#A04B8C;
@@ -45,21 +68,36 @@ a:hover {
 	background-color: #FEF898;
 	background-image: url(img/syaro.jpg);
 	background-position: bottom left;
-	background-size: contain;
+	background-size: auto 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 .Greeting{
 	text-align: center;
-	background: #FEF898 url(img/greeting.jpg) center center fixed;
+	background-color: #FEF898;
+	background-image: url(img/greeting.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 .Introduction{
 	text-align: center;
-	background: #FEF898 url(img/introduction.jpg) center right fixed;
+	background-color: #FEF898;
+	background-image: url(img/introduction.jpg);
+	background-position: center right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 .Life{
 	text-align: center;
-	background: #FEF898 url(img/life.jpg) center left fixed;
+	background-color: #FEF898;
+	background-image: url(img/life.jpg);
+	background-position: center left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 .Contact{
 	text-align: center;
@@ -67,7 +105,12 @@ a:hover {
 }
 .Recruit{
 	text-align: center;
-	background: #FEF898 url(img/recruit.jpg) center center fixed;
+	background-color: #FEF898;
+	background-image: url(img/recruit.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 .back{
 	background-color: rgba(255,255,255,0.8);
