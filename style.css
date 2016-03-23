@@ -102,10 +102,28 @@ a:hover {
 	text-align: center;
 	background: #FEF898;
 }
+.Law{
+	text-align: center;
+	background-color: #FEF898;
+	background-image: url(img/law.jpg);
+	background-position: center right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 .Recruit{
 	text-align: center;
 	background-color: #FEF898;
 	background-image: url(img/recruit.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.Question{
+	text-align: center;
+	background-color: #FEF898;
+	background-image: url(img/question.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
