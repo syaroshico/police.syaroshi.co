@@ -1,5 +1,4 @@
 @charset "UTF-8";
-<style>
 a {
 	text-decoration: none;
 }
@@ -11,12 +10,19 @@ a:hover {
 	background:#FEF898;
 }
 .logo{
-	color: #DAA1C1;
 	font-size: xx-large;
-	text-align: center;
-	text-shadow: 5px 5px 5px #FFF;
 	font-weight: bold;
+	color: transparent;
+	background-color: black;
+	text-shadow: rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+	-webkit-background-clip: text;
 }
+.logo2{
+	color: #DAA1C1;
+	font-size: small;
+	text-align: center;
+	font-weight: bold;
+  }
 .tl{
 	height:80%;
 }
@@ -25,14 +31,14 @@ a:hover {
 }
 .headerNavBtn{
 	text-align:center;
-	height:3em;
-	line-height:3em;
+	height:2em;
+	line-height:2em;
 	color:#5F5F5F;
-	font-size:16px;
+	font-size:14px;
+	font-weight: bolder;
 	background:#DAA1C1;
 }
 .headerNavBtn:hover{
-	background:#A04B8C;
 	color:#FFF;
 }
 .headerNavBtnXs{
@@ -49,13 +55,14 @@ a:hover {
 }
 .headerNavBtnOn{
 	text-align:center;
-	height:3em;
-	line-height:3em;
+	height:2em;
+	line-height:2em;
 	color:#FFF;
-	font-size:16px;
+	font-size:14px;
+	font-weight: bolder;
 	background:#A04B8C;
 }
-.headerNavBtnOnXs{
+.headerNavBtnXsOn{
 	text-align:center;
 	height:2em;
 	line-height:2em;
@@ -71,6 +78,10 @@ a:hover {
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+.MainXs{
+	text-align: center;
+	background-color: #FEF898;
 }
 .Greeting{
 	text-align: center;
@@ -99,9 +110,27 @@ a:hover {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+.Sport{
+	text-align: center;
+	background-color: #FEF898;
+	background-image: url(img/sport.jpg);
+	background-position: center left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 .Contact{
 	text-align: center;
 	background: #FEF898;
+}
+.Law{
+	text-align: center;
+	background-color: #FEF898;
+	background-image: url(img/law.jpg);
+	background-position: center right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 .Recruit{
 	text-align: center;
@@ -112,11 +141,50 @@ a:hover {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+.Question{
+	text-align: center;
+	background-color: #FEF898;
+	background-image: url(img/question.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 .back{
 	background-color: rgba(255,255,255,0.8);
 }
 .How{
 	background:#DAA1C1;
+}
+table.sport {
+	border-collapse: collapse;
+	border-spacing: 1px;
+	text-align: left;
+	line-height: 1.5;
+	white-space: nowrap;
+	border-top: 1px solid #DAA1C1;
+}
+table.sport th {
+	width: 150px;
+	padding: 10px;
+	white-space: nowrap;
+	vertical-align: top;
+	border-bottom: 1px solid #DAA1C1;
+}
+table.sport td {
+	width: 350px;
+	padding: 10px;
+	white-space: nowrap;
+	vertical-align: top;
+	border-bottom: 1px solid #DAA1C1;
+}
+table.sport td.name {
+	width: 350px;
+	padding: 10px;
+	white-space: nowrap;
+	vertical-align: top;
+	border-bottom: 1px solid #DAA1C1;
+	font-weight: bold;
 }
 ul.howtitle {
 	position: relative;
@@ -214,5 +282,6 @@ li.contents {
 	display: block;
 	background: #DAA1C1;
 }
-</style>
-/* CSS Document */
+.img-maru {
+border-radius : 100%;
+}
